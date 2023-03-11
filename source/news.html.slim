@@ -1,8 +1,8 @@
-section.homepage-partners.partners
+section.homepage-news.news
   .container
     h2
-      | Partners
-    .partners-items
+      | News
+    .news-items
       //get the first two most recent posts
       - blog.articles.each do | article |
-        = partial 'partials/partners/partners_item', locals: {article: article}
+        = partial 'partials/news/news_item', locals: {article: article}
