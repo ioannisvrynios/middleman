@@ -2,7 +2,7 @@ article.news-item
   .row
     .image
       - if article.data.image
-        = link_to article
+        = link_to article.data.description
           = image_tag article.data.image
 
     .content
@@ -11,4 +11,5 @@ article.news-item
           h3 = article.data.title
         
         p
-         a = article.data.description
+         = link_to article.data.description
+           a = article.data.description
