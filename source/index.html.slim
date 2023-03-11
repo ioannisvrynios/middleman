@@ -33,4 +33,4 @@ section.homepage-news.news
     .news-items
       //get the first two most recent posts
       - blog.articles.first(2).each do | article |
-        = partial 'partials/partners/news_item', locals: {article: article}
+        = partial 'partials/news/news_item', locals: {article: article}
