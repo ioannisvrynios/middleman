@@ -1,11 +1,31 @@
 //link to product by converting the title to a slug
+
 .product
   = link_to '/product/' + product.title.parameterize + '/'
+
     .product-image
       = image_tag product.image
     .product-content
-      .title
-        h3 = product.title
+      span
+       .title
+         b = product.title
+
+       br
+
+      .id
+        p = product.id.to_s
+
+        br
+
+      .collection
+        span = product.collection
+
+        br
+        br
+        br
+        br
+
+
       .price
         p 
           - currency = data.settings.units.currency || '€' 
