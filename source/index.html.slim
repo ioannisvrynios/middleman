@@ -26,11 +26,11 @@ section.homepage-products.products
         = partial 'partials/products/product', locals: {product: product}
 
 
-section.homepage-partners.partners
+section.homepage-news.news
   .container
     h2
       | Partners
-    .partners-items
+    .news-items
       //get the first two most recent posts
       - blog.articles.first(2).each do | article |
-        = partial 'partials/partners/partners_item', locals: {article: article}
+        = partial 'partials/news/news_item', locals: {article: article}
