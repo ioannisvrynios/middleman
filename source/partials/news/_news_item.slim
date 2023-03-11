@@ -8,6 +8,7 @@ article.news-item
     .content
       .wrapper
         = link_to article
-          h3 = article.data.title
+          h3 
+          a = article.data.title
         
         p = article.data.description
