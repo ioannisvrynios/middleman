@@ -4,19 +4,26 @@
   height: 80px;
   top: 0;
   z-index: 999;
-
+ 
   .logo {
+    position: absolute;
+    top: 8px;
+    left: -65px;
     width: 173px;
     height: 80px;
     a {
       display: block;
-      padding: 26px 30px;
     }
   }
 
   ul {
     margin: 0;
   }
+
+.navigation .logo {
+    display: none!important;
+    opacity: 0!important;
+    }
 
   .navigation {
     position: absolute;
@@ -84,6 +91,11 @@
         display: block
       }
     }
+
+ .navigation .logo {
+        display: none!important;
+        opacity: 0;
+      }
 
     .nav-button {
       display: block;

@@ -44,6 +44,7 @@ nav,
 section,
 summary {
   display: block;
+  text-decoration: none;
 }
 
 //
@@ -88,6 +89,8 @@ template {
 
 a {
   background-color: transparent;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 //
@@ -98,6 +101,8 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
 // Text-level semantics
@@ -110,8 +115,8 @@ a:hover {
 
 abbr[title] {
   border-bottom: none; // 1
-  text-decoration: underline; // 2
-  text-decoration: underline dotted; // 2
+  text-decoration: none; // 2
+  text-decoration: none; // 2
 }
 
 //
@@ -139,6 +144,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-decoration: none;
 }
 
 //
