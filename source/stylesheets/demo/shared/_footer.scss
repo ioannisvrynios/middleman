@@ -105,7 +105,8 @@ footer {
         display: block;
         position: relative;
         top: auto;
-        border-top: 1px solid rgba(119, 120, 124, 1);
+        border-top: 1px solid rgba(119, 120, 124, 0.3);
+        border-bottom: none;
         li {
           margin: 15px 0;
         }
