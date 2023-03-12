@@ -64,7 +64,7 @@ body {
   background: black;
 }
 a {
-  color: #d8e2e4;
+  color: #77787C;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -77,7 +77,7 @@ a:after {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: #000;
+  background: #77787C;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
