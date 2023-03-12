@@ -13,10 +13,12 @@
     height: 80px;
     a {
       display: block;
+      border: none!important;
     }
   }
 
-  a .logo {
+
+  .logo a {
   border: none!important;
   }
 
