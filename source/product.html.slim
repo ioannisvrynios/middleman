@@ -17,9 +17,7 @@
       
       .weight
         - weight = data.settings.units.weight || 'ml'
-        span = product.weight.to_s + weight
-        - weight_two = data.settings.units.weight || 'ml'
-        span = product.weight_two.to_s + weight  
+        span = product.weight.to_s + weight  
 
       .price
         - currency = data.settings.units.currency || '€' 
