@@ -5,7 +5,6 @@ footer {
   .header-primary {
     position: relative;
     height: auto;
-    border-bottom: 1px solid rgba(119,120,124, 1);
 
     .navigation .logo {
         display: none!important;
@@ -105,8 +104,7 @@ footer {
         display: block;
         position: relative;
         top: auto;
-        border-top: 0px solid rgba(119, 120, 124, 0.3);
-        border-bottom: 0px;
+        border-top: 1px solid rgba(119, 120, 124, 0.3);
         li {
           margin: 15px 0;
         }
