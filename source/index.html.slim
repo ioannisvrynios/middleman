@@ -15,9 +15,9 @@ section.homepage-story
 
 section.homepage-products.products
   .container
-    h2
+    h2 = link_to products/product.slim
       | Products
-    a = link_to products/product.slim
+
       | View more
     .row
       //product is structured: ['filename', 'data']
