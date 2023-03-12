@@ -5,6 +5,7 @@ footer {
   .header-primary {
     position: relative;
     height: auto;
+    border-bottom: 1px solid #77787C;
 
     .navigation .logo {
         display: none!important;
@@ -88,6 +89,9 @@ footer {
   
 @media screen and (max-width: $screen-xs-max) {
   footer {
+    .header-primary {
+    border-bottom: 0px solid #77787C;
+    }
     .header-primary {
       .logo  a {
         display: none;
