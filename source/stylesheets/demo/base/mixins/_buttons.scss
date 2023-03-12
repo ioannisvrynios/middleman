@@ -64,8 +64,11 @@ body {
   background: black;
 }
 a {
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
+  position: relative;
 }
 a:after {    
   background: none repeat scroll 0 0 transparent;
